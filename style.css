@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; background: #eef2f7; margin: 0; }
+.card { max-width: 420px; margin: 40px auto; background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,.1); }
+h1 { text-align: center; }
+form { display: flex; gap: 8px; }
+input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+button { padding: 10px 14px; border: none; background: #2563eb; color: #fff; border-radius: 6px; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; }
+li.done { text-decoration: line-through; color: #888; }
+li button { background: #dc2626; padding: 4px 8px; }
